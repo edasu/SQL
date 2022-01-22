@@ -1,8 +1,10 @@
+```sql
+CREATE PROCEDURE solution()
 BEGIN
 	SELECT project_name, team_lead, income FROM Projects ORDER BY internal_id;
 END
-
-<p>
+```
+	
 Your boss wants to identify the successful projects running in your company, so he asked you to prepare a list of all the currently active projects and their average monthly income.
 
 You have stored the information about these projects in a simple database with a single Projects table that has five columns:
